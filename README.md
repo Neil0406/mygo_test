@@ -1,16 +1,18 @@
 # MyGo - Test
 
-## Question 1.
+## Q1. Python 試題
 
 ```
+位置：
 
 1. python_test.py
 
 ```
 
-## Question 2.
+## Q2. 撰寫單元測試 (Unit Test)，測試涵蓋率 (Test Coverage) 大於 90 %
 
 ```
+位置：
 
 1. unit_test.py
 
