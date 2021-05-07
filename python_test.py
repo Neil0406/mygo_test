@@ -12,18 +12,18 @@ def test_func(input_value):
             re = s[s.find(reverse_l[i]): s.find(reverse_l[i]) + len(reverse_l[i])]
             s = s.replace(re ,'x')
     s.replace(' ','')
-    oup_put = ""
+    output_ = ""
     for i in s:
         if i == "x":
             try:
-                oup_put += reverse_l[0]
+                output_ += reverse_l[0]
                 reverse_l.remove(reverse_l[0])
             except:
                 pass
         else:
-            oup_put += i
-    oup_put = eval(oup_put)
-    return oup_put
+            output_ += i
+    output_ = eval(output_)
+    return output_
 
 
 """
